@@ -2,8 +2,11 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git python zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
-
+plugins=(
+	git 
+	python 
+	zsh-autosuggestions
+)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
